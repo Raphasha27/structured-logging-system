@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "structured-logging-system"
+version = "1.0.0"
+description = "Lightweight JSON-structured logging library for Python with zero dependencies"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Koketso Raphasha", email = "402106633@my.richfield.ac.za"},
+]
+keywords = ["logging", "structured-logging", "json-logging", "observability"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.3.0",
+    "pre-commit>=3.5.0",
+]
