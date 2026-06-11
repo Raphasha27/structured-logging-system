@@ -9,3 +9,16 @@ build/
 .vscode/
 .idea/
 coverage/
+
+# Security: auto-added entries
+.env.*
+!.env.example
+!.env.sample
+Thumbs.db
+desktop.ini
+.venv/
+venv/
+credentials.json
+serviceAccountKey.json
+*.pem
+*.key
